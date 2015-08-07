@@ -1,0 +1,26 @@
+Initial Guess at the Data Needed
+
+Product:
+  - name
+  - description
+  - image
+  - price
+
+Seller Details:
+  - login name
+  - password
+
+Cart:
+  - (o..n) Line Items
+  - belongs_to an Order
+  - cart specific data?
+
+Line Item:
+  - product
+  - quantity
+  - price
+
+Order:
+  - buyer details
+  - payment details
+  - shipping status
