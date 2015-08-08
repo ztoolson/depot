@@ -4,12 +4,13 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: 
-  title: Awesome product
-  description: You should buy this product
+no_image_product: 
+  title: simple 
+  description: I do not have an image
   price: 20
 
-two:
-  title: bad product
-  description: do not buy this product
+valid_product:
+  title: product
+  description: buy this product
+  image_url: test.jpg
   price: 1000
